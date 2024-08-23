@@ -73,6 +73,7 @@ table {
 .tbt{
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
   padding: 20px;
+  width: 60%;
 }
 td, th {
   border: 1px solid #dddddd;
@@ -84,4 +85,42 @@ td, th {
 th{
   background-color: rgb(25, 45, 195);
   color: white;
+}
+.h33{
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 50%;
+  margin: 10px;
+}
+.zankati h1{
+  color: rgb(25, 45, 195);
+}
+.zankati{
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+}
+.lenmo{
+  padding: 10px;
+  background-color: rgb(25, 45, 195);
+  color:white;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.Round{
+  padding: 10px;
+  background-color: white;
+  color:rgb(25, 45, 195);
+  border: 1px solid rgb(25, 45, 195);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
 }
