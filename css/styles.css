@@ -26,3 +26,40 @@ a.active {
 .navbar a:hover {
   background-color: rgb(25, 45, 195);
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.card h4{
+  color: rgb(50, 66, 189);
+}
+.card button{
+  width: 100px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.b2{
+  background-color: rgb(25, 45, 195);
+  color: white;
+}
+.b1{
+  background-color: rgb(255, 255, 255);
+}
